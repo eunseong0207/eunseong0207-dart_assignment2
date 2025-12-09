@@ -1,2 +1,11 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# 과제
+
+## 과제 시나리오- 컬렉션을 활용하여 데이터 처리하기
+- **파일 입출력**을 통해 데이터를 불러오고 저장하기
+- 객체 지향을 활용한 전체 구조 생각하기
+
+## 과제 1
+1. Score와 StudentScore 클래스를 구성하기
+2. 파일로부터 데이터 읽어오기 기능
+3. 사용자로부터 입력 받아 학생 점수 확인 기능
+4.  프로그램 종료 후, 결과를 파일에 저장하는 기능
