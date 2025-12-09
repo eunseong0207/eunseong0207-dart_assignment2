@@ -1,3 +1,2 @@
-# 개인과제1
-
-# 개인과제2
+A sample command-line application with an entrypoint in `bin/`, library code
+in `lib/`, and example unit test in `test/`.
