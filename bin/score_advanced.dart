@@ -1,3 +1,5 @@
 // 실행 전용
 
-void main(List<String> arguments) {}
+void main(List<String> arguments) {
+  //
+}
