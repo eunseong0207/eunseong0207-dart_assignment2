@@ -9,10 +9,23 @@ class Score {
     print("점수는 : $scores"); // $ : 값을 받아옴 , $안치면 텍스트임
   }
 }
+
+// 점수(int) 는 super(...) 활용해야함
+class StudentScore extends Score {
+  String name;
+
+  StudentScore(this.name, int scores) : super(scores);
+  @override
+  void showInfo() {
+    print("이름은 : $name , 점수는 : $scores");
+  }
+}
 // 상속
 // class [자식 클래스 이름] extends [부모 클래스 이름] { … }
 
 void main() {
   Score puff = Score(500);
-  puff.showInfo(); 
+  puff.showInfo();
+  StudentScore names = StudentScore('힘들어요', 1818);
+  names.showInfo();
 }
