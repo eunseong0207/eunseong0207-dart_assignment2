@@ -17,7 +17,7 @@ void scoreCheck() {
     stdout.write("어떤 학생의 점수를 확인 하시겠습니까?(q:종료)"); // 나만의 기능 q로 종료값 추가
     // stdin : 키보드 입력값 // stdin.readLineSync() => String? 타입의 값으로 반환하는 메서드
     String scoreAsk = stdin.readLineSync()!; // stdin : 표준입력 (키보드 입력값 등)
-    // //나만의 기능 - 1
+    // 나만의 기능 - 1
     // 종료값 설정 : "잘못된 학생 ....다시 입력.." 후 종료가 되지 않아
     // 만약에 scoreAsk = q 라면 "끝"을 출력 하고 종료가 되도록 설정
     if (scoreAsk == "q") {
