@@ -296,13 +296,15 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "score_advanced",
+      "name": "grade_confirmation_program",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.9"
     }
   ],
   "generator": "pub",
-  "generatorVersion": "3.10.2",
+  "generatorVersion": "3.10.1",
+  "flutterRoot": "file:///Users/mango/development/flutter",
+  "flutterVersion": "3.38.3",
   "pubCache": "file:///Users/mango/.pub-cache"
 }

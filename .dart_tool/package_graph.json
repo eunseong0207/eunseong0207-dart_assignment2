@@ -1,10 +1,10 @@
 {
   "roots": [
-    "score_advanced"
+    "grade_confirmation_program"
   ],
   "packages": [
     {
-      "name": "score_advanced",
+      "name": "grade_confirmation_program",
       "version": "1.0.0",
       "dependencies": [
         "path"

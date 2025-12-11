@@ -1,32 +1,8 @@
+// 2. 파일로부터 데이터 읽어오기
+
 import 'dart:io';
+import 'package:grade_confirmation_program/class_composition.dart';
 
-//1. Score와 StudentScore 클래스를 구성하기
-/// class(Score) : 붕어빵틀(클래스) | int score : 팥,슈크림(변수) | showInfo : 조리법(메서드)
-class Score {
-  int data;
-
-  Score(this.data); // 밑에서 500 받음
-
-  void showInfo() {
-    print("점수는 : $data"); // $ : 값을 받아옴 , $안치면 텍스트임
-  }
-}
-
-// 상속
-// class [자식 클래스 이름] extends [부모 클래스 이름] { … }
-// 점수(int) 는 super(...) 활용해야함
-class StudentScore extends Score {
-  String name;
-
-  StudentScore(this.name, int scores) : super(scores);
-  @override
-  void showInfo() {
-    //showInfo : 프린트 말고 할 수 있는게 없음
-    print("이름은 : $name , 점수는 : $data");
-  }
-}
-
-//2. 파일로부터 데이터 읽어오기
 // loadStudentData - 함수명
 List<StudentScore> loadStudentData(String filePath) {
   List<StudentScore> scoreSave = [];
