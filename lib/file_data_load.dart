@@ -23,8 +23,8 @@ List<StudentScore> loadStudentData(String filePath) {
       final parts = line.split(','); // , 로 나눠준거임
       if (parts.length != 2) throw FormatException('잘못된 데이터 형식: $line');
 
-      String name = parts[0]; // parts0 > 인덱스0번 = 글자다
-      int score = int.parse(parts[1]); // parts1 > 인덱스1번 = 숫자다
+      // String name = parts[0]; // parts0 > 인덱스0번 = 글자다
+      // int score = int.parse(parts[1]); // parts1 > 인덱스1번 = 숫자다
       // scoresave.add(); // 네임이랑 스코어를 한번에 넣어줘야함
       // 2-1 parts라는 변수의 인덱스 및 int.parse를 사용하여 list에 String와 int를 같이 담아주는 작업
       StudentScore n = StudentScore(parts[0], int.parse(parts[1]));
