@@ -31,9 +31,9 @@ class StudentScore extends Score {
 List<StudentScore> loadStudentData(String filePath) {
   List<StudentScore> scoreSave = [];
 
-  // // stdout : 터미널로 출력을 보내는 통로
+  // stdout : 터미널로 출력을 보내는 통로
   // stdout.write("어떤 학생의 점수를 확인 하시겠습니까?");
-  // // stdin : 키보드 입력값 // stdin.readLineSync() => String? 타입의 값으로 반환하는 메서드
+  // stdin : 키보드 입력값 // stdin.readLineSync() => String? 타입의 값으로 반환하는 메서드
   // String scoreAsk = stdin.readLineSync()!; // stdin : 표준입력 (키보드 입력값 등)
 
   try {
